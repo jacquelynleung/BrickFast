@@ -10,6 +10,10 @@ ul {
     padding: 5px;
 }
 
+a { 
+    color: white; 
+}
+
 body{ 
     text-align: center;
     background-color: #72726b;
