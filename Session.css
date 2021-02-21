@@ -75,12 +75,14 @@ p {
           
         .minutes-set {
             margin-top: 80px;
-            margin-left: 225px;
+            margin-left: 300px;
+            margin-right: 650px;
           }
         
         .seconds-set { 
-            float: right; 
-            margin-left: 1000px;
+            margin-top: -20px;
+            margin-left: 700px;
+            margin-right: 850px;
         
         }
         
