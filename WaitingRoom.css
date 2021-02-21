@@ -1,7 +1,7 @@
 ul {
     font-family: monospace;
-    text-align: left;
     font-size: 25px;
+    text-align: left;
     background-color: #ac5700;
     background-position: 50px;
     margin-top: auto;
@@ -15,17 +15,26 @@ body{
     background-color: #72726b;
 }
 
-h1 {
-    font-family: monospace;
-    font-size: 50px;
-  }
-
-h2 {
+h4 {
     font-family: monospace;
     font-size: 40px;
   }
 
-  button{
+h5 {
+    font-family: monospace;
+    font-size: 20px;
+  }
+
+p {
+    font-family: monospace;
+    font-size: 35px;
+    background-color: #ac5700;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 15px;
+}
+
+button{
     background-color: #ac5700;
     border: none;
     color: white;
@@ -35,4 +44,3 @@ h2 {
     display: inline-block;
     font-size: 16px;
   }
-  
