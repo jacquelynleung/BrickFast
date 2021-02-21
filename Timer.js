@@ -7,9 +7,9 @@ let length = Math.PI * 2 * 100;
 progressBar.style.strokeDasharray = length;
 
 function update(value, timePercent) {
-	var offset = - length - length * value / (timePercent);
-	progressBar.style.strokeDashoffset = offset; 
-	pointer.style.transform = `rotate(${360 * value / (timePercent)}deg)`; 
+    var offset = - length - length * value / (timePercent);
+    progressBar.style.strokeDashoffset = offset; 
+    pointer.style.transform = `rotate(${360 * value / (timePercent)}deg)`; 
 };
 
 //circle ends
@@ -110,10 +110,3 @@ function displayTimeLeft (timeLeft){ //displays time on the input
 }
 
 pauseBtn.addEventListener('click',pauseTimer);
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-46156385-1', 'cssscript.com');
-  ga('send', 'pageview');
