@@ -37,6 +37,11 @@ p {
     font-size: 25px;
 }
 
+h2 {
+    font-family: monospace;
+    font-size: 25px;
+}
+
 a { 
     color: white; 
 }
