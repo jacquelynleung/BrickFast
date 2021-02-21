@@ -29,3 +29,7 @@ button {
     font-family: monospace;
     font-size: 30px;
   }
+
+  a { 
+    color: white; 
+}
