@@ -3,15 +3,20 @@
 <head>
     <meta charset="utf-8">
     <title>BrickFast</title>
-    <meta name="description" content="SessionSetUp">
+    <meta name="description" content="Session">
     <meta name="author" content="BrickFans">
-    <script type="text/javascript" src="SessionSetUp.js"></script>
-    <link rel="stylesheet" href="JoinSession.css">
+    <script type="text/javascript" src="Session.js"></script>
+    <link rel="stylesheet" href="Session.css">
 </head>
 <ul class="nav">
     <li><a class="active" href="index.html">Home</a></li>
     <li><a class="active" href="LeaveSession.html">Leave Session</a></li>
 </ul>
 <body>
-    
+    <script src="Session.js"></script>
+    <label for="ingredients">Number of ingredients:</label>
+    <input type="text" id="ingredients" name="ingredients">
+    <button onclick="buttonFun()">Generate Ingredients</button>
+    <div style="display: none; resize:none;" id="text" name="text" ><h2>Ingredients:</h2><p> Banana <br> Milk <br> Rice <br></p></div>
+    <div><p>Friends Here: <br> Emily <br> Jackie <br> Jimmy <br> Josh</p> <br></div>
 </body>
