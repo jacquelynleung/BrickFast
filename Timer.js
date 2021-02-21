@@ -62,19 +62,11 @@ function timer (seconds){ //counts time, takes seconds
   intervalTimer = setInterval(function(){
     timeLeft = Math.round((remainTime - Date.now()) / 1000);
     if(timeLeft < 0){
-      clearInterval(intervalTimer);
-      isStarted = false;
-      setterBtns.forEach(function(btn){
-        btn.disabled = false;
-        btn.style.opacity = 1;
-      });
-      displayTimeLeft(wholeTime);
-      pauseBtn.classList.remove('pause');
-      pauseBtn.classList.add('play');
-      return ;
+      window.location.href = "PresentDishes.html"; 
     }
     displayTimeLeft(timeLeft);
   }, 1000);
+
 }
 function pauseTimer(event){
   if(isStarted === false){
